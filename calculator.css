@@ -2,21 +2,19 @@
     padding: 0;
     margin: 0;
     outline: 0;
-    background-color: inherit;
-    color: inherit;
-    font-family: inherit;
-    font-size: inherit;
-    box-shadow: none;
     box-sizing: border-box;
 }
 
-html {
-    scroll-behavior: smooth;
-}
-
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(140, 140, 140);
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(
+        90deg,
+        rgb(16, 16, 16) 0%,
+        rgba(111, 98, 77, 1) 53%,
+        rgba(251, 161, 11, 0.9110994739692753) 100%
+    );
 }
 
 .calculator-container {
@@ -42,7 +40,8 @@ body {
     margin: 15px 0 30px;
     padding: 0 15px;
     border: none;
-    background-color: rgb(49, 49, 49);
+    background-color: rgb(60, 60, 60);
+    box-shadow: inset 4px 4px 5px #1c1c1c, inset -4px -4px 3px rgb(60, 60, 60);
     color: white;
     pointer-events: none;
     border-radius: 10px;
@@ -62,7 +61,7 @@ body {
 
 .number {
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     background-color: rgb(50, 50, 50);
     box-shadow: 5px 5px 7px #000000, -1px -1px 10px #838383db;
     border-radius: 30px;
