@@ -1,12 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="calculator.css" />
+        <title>Calculator App</title>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+            integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+    </head>
+
+    <body>
+        <div class="calculator-container">
+            <form class="calculator">
+                <input type="text" class="result" />
+                <div class="calculator-body">
+                    <span class="number" id="clear-all">C</span>
+                    <span class="number" id="backspace"><i class="fas fa-backspace"></i></span>
+                    <span class="number"><i class="fas fa-percent"></i></span>
+                    <span class="number"><i class="fas fa-multiply"></i></span>
+                    <span class="number">7</span>
+                    <span class="number">8</span>
+                    <span class="number">9</span>
+                    <span class="number"><i class="fas fa-divide"></i></span>
+                    <span class="number">4</span>
+                    <span class="number">5</span>
+                    <span class="number">6</span>
+                    <span class="number"><i class="fas fa-plus"></i></span>
+                    <span class="number">1</span>
+                    <span class="number">2</span>
+                    <span class="number">3</span>
+                    <span class="number"><i class="fas fa-minus"></i></span>
+                    <span class="number">.</span>
+                    <span class="number">0</span>
+                    <span class="number equals"><i class="fas fa-equals"></i></span>
+                </div>
+            </form>
+        </div>
+
+        <!-- ------------------- -->
+        <script src="calculator.js"></script>
+    </body>
 </html>
