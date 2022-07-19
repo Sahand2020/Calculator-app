@@ -28,15 +28,12 @@ body {
 }
 
 .calculator {
-    /* background-color: rgb(0, 0, 0); */
     border-radius: 20px;
     background: #0c0c0c;
-    box-shadow: 41px 41px 82px #181818, -41px -41px 82px #202020;
     width: 410px;
     height: 600px;
     padding: 25px;
     border-radius: 10px;
-    box-shadow: 8.5px 8.5px 14px #cbcbcb, -8.5px -8.5px 14px #ffffff;
 }
 
 .result {
@@ -46,6 +43,7 @@ body {
     padding: 0 15px;
     border: none;
     background-color: rgb(49, 49, 49);
+    color: white;
     pointer-events: none;
     border-radius: 10px;
     text-align: right;
